@@ -14,9 +14,9 @@ class Students{
     var fullName: String? = null
     var email: String? = null
 
-    /*@ManyToOne
+    @ManyToOne
     @JoinColumn(name = "curses_id")
     //, insertable = false, updatable = false) // No enforce foreign key
 
-    var curses: Curses? = null **/
+    var curses: Curses? = null
 }
